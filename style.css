@@ -1,0 +1,38 @@
+body{
+    background: #fac085;
+   
+
+}
+.wrapper{
+    width:750px;
+    margin: 0 auto;
+}
+.action{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    border-radius: 1px;
+    background: linear-gradient(to left, rgba(0,0,0,.3), rgba(0,0,0,.0) 50%, rgba(0,0,0,.3)), linear-gradient(#d77d31, #fe8417, #d77d31);
+    box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, #000 0 10px 15px -10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 -1px 1px #cc5500;
+    padding: 10px 20px;
+    margin: 30px;
+}
+ul{
+    font-size: 20px;
+    color: #8d3e05;
+    width: 100px;
+    text-align: center;
+}
+li{
+    margin:10px;
+}
+.border{
+    border: 2px solid  #8d3e05;
+}
